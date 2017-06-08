@@ -31,9 +31,7 @@ class Movie
   def villains
     villains = ''
     @characters.each do |character|
-      if character.hero_or_villain == 'villain'
-        villains += "#{character.name}\n"
-      end
+      villains += "#{character.name}\n" if character.hero_or_villain == 'villain'
     end
     villains
   end
