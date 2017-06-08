@@ -7,7 +7,7 @@ class Soundtrack
   end
 
   def add_song(song)
-    @songs << song
+    @songs.push(song)
   end
 
   def print_soundtrack

@@ -14,7 +14,7 @@ class Movie
   end
 
   def add_character(character)
-    @characters << character
+    @characters.push(character)
   end
 
   def heroes
